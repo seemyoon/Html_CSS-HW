@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-first{
+    background-color: rgba(255, 192, 203, 1);
+    color: black;
+    height: 50vh;
+}
+.container-second{
+    background-color: rgba(39, 39, 39, 1);
+    color: white;
+    height: 50vh;
+}
+h2{
+    padding: 6px;
+    font-size: 40px;
+}
+p{
+    width: 90%;
+    text-align: center;
+}

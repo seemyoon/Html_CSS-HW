@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+header, footer{
+    background: #D9D9D9;
+}
+header{
+    height: 15vh;
+}
+.container-first {
+    width: 33.4vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-second{
+    width: 33.4vw;
+    height: 75vh;
+    background: #61615C;
+}
+.container-third{
+    width: 33.4vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+.container-first__first-item{
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+    height: 33.4vh;
+}
+.container-first__second-item{
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+    height: 33.4vh;
+}
+.container-first__third-item{
+    background: linear-gradient(0deg, #979796 0%, #979796 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+    height: 33.4vh;
+}
+.container-third__first-item{
+    background: #78786F;
+    height: 50vh;
+}
+.container-third__second-item{
+    background: #828569;
+    height: 50vh;
+}
+main{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    height: 10vh;
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+header{
+    height: 10vh;
+    background: #D9D9D9;
+}
+.container-first{
+    height: 20vh;
+    width: 100vw;
+    background: #C2C4AC;
+}
+.container-second{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.container-second__first-item, .container-second__third-item{
+    height: 60vh;
+    width: 19.5vw;
+    background: #9EA087;
+}
+.container-second__second-item{
+    height: 60vh;
+    width: 61vw;
+    background: #78786F;
+}
+footer{
+    height: 10vh;
+    background: #D9D9D9;
+}

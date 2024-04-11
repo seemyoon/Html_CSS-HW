@@ -1,0 +1,37 @@
+@import url("reset.css");
+
+.task { /*I have done this to make it easier to navigate*/
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px black Dashed;
+    margin: 0 auto 30px auto;
+}
+
+.task-1 > ul li:nth-child(even) {
+    color: pink;
+}
+
+.task-2 > ul li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.task-3 > ul li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+.task-4 > ul li:last-child {
+    color: violet;
+}
+
+/*.task-4 > ul li:nth-child(n+12){*!*/
+/*    color: violet;*!*/
+/*} also we can use this method, but the above example is more comfortable and useful. Though we haven't learnt this pseudo-class*/
+
+.task-5 > ul li:first-letter{
+    font-size: 30px;
+    color: red;
+}

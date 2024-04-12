@@ -1,0 +1,23 @@
+@import "reset.css";
+header, section{
+    background-color: rgba(216, 216, 216, 1);
+    border: 1px solid black;
+    font-size: 40px;
+}
+header{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    height: 70vh;
+}
+
+main > section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

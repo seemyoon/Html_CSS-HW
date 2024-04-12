@@ -1,0 +1,22 @@
+@media screen and (max-width: 599px) {
+    header {
+        height: 15vh;
+    }
+
+    main {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    main > section {
+        height: 100%;
+    }
+
+    main > .container-first {
+        height: 70vh;
+    }
+
+    main > .container-second {
+        height: 15vh;
+    }
+}

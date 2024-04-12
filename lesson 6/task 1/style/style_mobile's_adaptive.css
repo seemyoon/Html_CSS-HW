@@ -1,0 +1,34 @@
+@media screen and (max-width: 599px) {
+    nav {
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    nav > .link {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-first {
+        height: 30vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container-second {
+        height: 90vh;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-second > article {
+        height: 100%;
+
+    }
+
+    .container-second > article > p {
+        transform: none;
+    }
+
+
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 1200px){
+    .container-second {
+        display: flex;
+    }
+    .container-second > article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-second > article > p{
+        transform: rotate(-90deg);
+    }
+}

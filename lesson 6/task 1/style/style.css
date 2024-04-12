@@ -1,0 +1,58 @@
+@import "reset.css";
+
+body {
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 40px;
+}
+
+nav > div, .container-first, .container-second > article, footer {
+    background-color: rgba(73, 159, 198, 1);
+    border: 1px solid black;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+}
+
+nav > .link {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .link > a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-first {
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-first > p, .container-second > article > p {
+    margin: 15px;
+}
+
+.container-second {
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-second > article {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

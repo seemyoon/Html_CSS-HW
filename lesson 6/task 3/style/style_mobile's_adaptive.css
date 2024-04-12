@@ -1,0 +1,12 @@
+@media screen and (max-width: 599px) {
+    main {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container-first{
+        width: 100%;
+    }
+    .container-second{
+        width: 100%;
+    }
+}

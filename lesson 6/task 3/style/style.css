@@ -1,0 +1,57 @@
+@import "reset.css";
+
+header, section, div {
+    background-color: rgba(216, 216, 216, 1);
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+}
+
+.container-first {
+    width: 70vw;
+    display: grid;
+    grid-template-areas:
+    "container-item-first container-item-first container-item-first"
+    "container-item-second container-item-third container-item-forth";
+}
+
+.container-item-first {
+    grid-area: container-item-first;
+}
+
+.container-item-second {
+    grid-area: container-item-second;
+}
+
+.container-item-third {
+    grid-area: container-item-third;
+}
+
+.container-item-forth {
+    grid-area: container-item-forth;
+}
+
+.container-first > .container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-second {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
